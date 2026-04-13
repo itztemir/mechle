@@ -17,7 +17,7 @@
 <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luciole:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
 
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -47,119 +47,150 @@
   --blue-text:#5a5ab0;
 }
 
-html,body{background:#0c0c0c;min-height:100vh;font-family:'Share Tech Mono',monospace;color:var(--text)}
 
-.page-wrap{max-width:760px;margin:0 auto;padding:0 0 40px}
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --orange:#e05a00;
+  --orange-dim:#b84500;
+  --bg:#0c0c0c;
+  --bg2:#121212;
+  --bg3:#181818;
+  --bg4:#1e1e1e;
+  --border:#2a2a2a;
+  --border2:#333;
+  --text:#e0d8c0;
+  --text-dim:#999;
+  --text-muted:#666;
+  --green-bg:#0d2e0d;
+  --green-border:#1e6e1e;
+  --green-text:#5cb85c;
+  --amber-bg:#2e1e06;
+  --amber-border:#6a4000;
+  --amber-text:#d4920a;
+  --red-bg:#2a0f0f;
+  --red-border:#5c1e1e;
+  --red-text:#cc4444;
+  --blue-bg:#141428;
+  --blue-border:#2a2a6e;
+  --blue-text:#6a6acc;
+}
+
+html,body{background:#0c0c0c;min-height:100vh;font-family:'Luciole',sans-serif;font-size:15px;color:var(--text);line-height:1.6}
+
+.page-wrap{max-width:800px;margin:0 auto;padding:0 0 60px}
 
 /* ---- TOP AD ---- */
-.ad-top{background:var(--bg2);border-bottom:1px solid var(--border);padding:10px;text-align:center;min-height:90px;display:flex;align-items:center;justify-content:center}
-.ad-label{font-size:9px;color:#333;letter-spacing:2px;text-transform:uppercase}
+.ad-top{background:var(--bg2);border-bottom:1px solid var(--border);padding:12px;text-align:center;min-height:90px;display:flex;align-items:center;justify-content:center}
+.ad-label{font-size:11px;color:#444;letter-spacing:2px;text-transform:uppercase}
 
 /* ---- HEADER ---- */
-header{background:var(--bg2);border-bottom:2px solid var(--orange);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
-.logo{font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:4px;color:var(--orange);line-height:1}
-.logo-sub{font-size:9px;color:var(--text-muted);letter-spacing:2px;font-family:'Share Tech Mono',monospace;text-transform:uppercase;margin-top:2px}
+header{background:var(--bg2);border-bottom:2px solid var(--orange);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:4px;color:var(--orange);line-height:1}
+.logo-sub{font-size:11px;color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
 .hdr-right{text-align:right}
-.daily-badge{font-size:9px;color:var(--orange);letter-spacing:2px;text-transform:uppercase;border:1px solid var(--orange-dim);padding:3px 8px;border-radius:2px;display:inline-block;margin-bottom:5px}
-.hdr-stats{font-size:10px;color:var(--text-muted);letter-spacing:1px}
+.daily-badge{font-size:11px;color:var(--orange);letter-spacing:2px;text-transform:uppercase;border:1px solid var(--orange-dim);padding:4px 10px;border-radius:3px;display:inline-block;margin-bottom:6px}
+.hdr-stats{font-size:12px;color:var(--text-muted);letter-spacing:.5px}
 .hdr-stats b{color:var(--orange)}
 
 /* ---- PROGRESS ---- */
-.prog-bar{height:3px;background:var(--bg4)}
+.prog-bar{height:4px;background:var(--bg4)}
 .prog-fill{height:100%;background:var(--orange);transition:width .5s,background .5s;width:0%}
 
 /* ---- MAIN CARD ---- */
-.game-wrap{padding:0 12px}
+.game-wrap{padding:0 16px}
 
-.vehicle-card{margin:14px 0;background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--orange);border-radius:3px;padding:13px 15px}
-.vc-label{font-size:9px;color:var(--orange);letter-spacing:3px;text-transform:uppercase;margin-bottom:6px}
-.vc-meta{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
-.vc-badge{font-size:9px;letter-spacing:1px;text-transform:uppercase;padding:2px 8px;border-radius:2px;border:1px solid var(--border2);color:var(--text-muted)}
-.vc-badge.yr{border-color:rgba(224,90,0,.4);color:var(--orange)}
-.vc-scenario{font-size:12px;color:#b8b098;line-height:1.7;margin-bottom:12px}
-.symptom-row{display:flex;flex-wrap:wrap;gap:5px}
-.sym{font-size:9px;padding:3px 8px;background:var(--bg4);border:1px solid var(--border2);color:var(--text-muted);border-radius:2px;letter-spacing:.5px}
+.vehicle-card{margin:16px 0;background:var(--bg3);border:1px solid var(--border);border-left:4px solid var(--orange);border-radius:5px;padding:16px 18px}
+.vc-label{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.vc-meta{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.vc-badge{font-size:12px;padding:3px 10px;border-radius:3px;border:1px solid var(--border2);color:var(--text-dim)}
+.vc-badge.yr{border-color:rgba(224,90,0,.5);color:var(--orange);font-weight:700}
+.vc-scenario{font-size:14px;color:#c0b898;line-height:1.75;margin-bottom:14px}
+.symptom-row{display:flex;flex-wrap:wrap;gap:6px}
+.sym{font-size:12px;padding:4px 10px;background:var(--bg4);border:1px solid var(--border2);color:var(--text-dim);border-radius:3px}
 
 /* ---- CLUES ---- */
-.clue-area{margin:0 0 4px}
-.clue{display:flex;gap:8px;align-items:flex-start;font-size:11px;margin-bottom:6px;animation:fi .4s ease}
-.clue-arr{color:var(--orange);flex-shrink:0;margin-top:1px}
-.clue-txt{color:#9a9278;line-height:1.5}
-@keyframes fi{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+.clue-area{margin:4px 0 8px}
+.clue{display:flex;gap:10px;align-items:flex-start;font-size:13px;margin-bottom:8px;animation:fi .4s ease;background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--orange-dim);border-radius:3px;padding:8px 12px}
+.clue-arr{color:var(--orange);flex-shrink:0;margin-top:2px;font-size:12px}
+.clue-txt{color:#b0a880;line-height:1.6}
+@keyframes fi{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
 
 /* ---- GUESS GRID ---- */
-.guess-section{margin-bottom:8px}
-.guess-row{display:flex;gap:3px;margin-bottom:4px;align-items:center}
-.gnum{font-size:9px;color:#2e2e2e;width:14px;text-align:right;flex-shrink:0}
-.tile{flex:1;padding:7px 2px;text-align:center;font-size:7.5px;letter-spacing:.2px;border-radius:2px;border:1px solid #1a1a1a;background:#111;color:#2a2a2a;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;transition:all .3s}
-.tile.lbl{color:#252525;font-size:7px}
-.tile.correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
-.tile.close{background:var(--amber-bg);border-color:var(--amber-border);color:var(--amber-text)}
-.tile.partial{background:var(--blue-bg);border-color:var(--blue-border);color:var(--blue-text)}
-.tile.wrong{background:var(--red-bg);border-color:var(--red-border);color:var(--red-text)}
+.guess-section{margin-bottom:10px}
+.guess-row{display:flex;gap:4px;margin-bottom:5px;align-items:center}
+.gnum{font-size:12px;color:#383838;width:18px;text-align:right;flex-shrink:0;font-weight:700}
+.tile{flex:1;padding:9px 4px;text-align:center;font-size:11px;font-family:'Luciole',sans-serif;border-radius:3px;border:1px solid #1e1e1e;background:#141414;color:#303030;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;transition:all .3s;line-height:1.3}
+.tile.lbl{color:#2e2e2e;font-size:10px}
+.tile.correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text);font-weight:700}
+.tile.close{background:var(--amber-bg);border-color:var(--amber-border);color:var(--amber-text);font-weight:700}
+.tile.partial{background:var(--blue-bg);border-color:var(--blue-border);color:var(--blue-text);font-weight:700}
+.tile.wrong{background:var(--red-bg);border-color:var(--red-border);color:var(--red-text);font-weight:700}
 
 /* ---- LEGEND ---- */
-.legend{display:flex;gap:12px;padding:8px 0 10px;flex-wrap:wrap;border-top:1px solid #181818;margin-top:4px}
-.li{display:flex;align-items:center;gap:4px;font-size:8px;color:#444;letter-spacing:1px;text-transform:uppercase}
-.ld{width:7px;height:7px;border-radius:1px;flex-shrink:0}
+.legend{display:flex;gap:16px;padding:10px 0 12px;flex-wrap:wrap;border-top:1px solid var(--border);margin-top:6px}
+.li{display:flex;align-items:center;gap:6px;font-size:12px;color:#555;letter-spacing:.5px}
+.ld{width:10px;height:10px;border-radius:2px;flex-shrink:0}
 
 /* ---- INPUT ---- */
-.input-row{display:flex;gap:8px;margin:10px 0}
-select.ds{flex:1;background:var(--bg3);border:1px solid var(--border2);border-radius:3px;color:var(--text);font-family:'Share Tech Mono',monospace;font-size:11px;padding:10px 12px;outline:none;cursor:pointer;appearance:none;-webkit-appearance:none}
+.input-row{display:flex;gap:10px;margin:12px 0}
+select.ds{flex:1;background:var(--bg3);border:1px solid var(--border2);border-radius:4px;color:var(--text);font-family:'Luciole',sans-serif;font-size:13px;padding:11px 14px;outline:none;cursor:pointer;appearance:none;-webkit-appearance:none;line-height:1.4}
 select.ds:focus{border-color:var(--orange)}
 select.ds:disabled{opacity:.4;cursor:default}
-button.go{background:var(--orange);border:none;border-radius:3px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:2px;padding:10px 20px;cursor:pointer;transition:background .15s;flex-shrink:0}
+button.go{background:var(--orange);border:none;border-radius:4px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:2px;padding:11px 24px;cursor:pointer;transition:background .15s;flex-shrink:0}
 button.go:hover{background:#f06a10}
-button.go:disabled{background:#222;color:#444;cursor:default}
+button.go:disabled{background:#252525;color:#555;cursor:default}
 
 /* ---- RESULT ---- */
-.result{padding:14px 16px;border-radius:3px;display:none;text-align:center;margin:6px 0}
+.result{padding:18px 20px;border-radius:5px;display:none;text-align:center;margin:8px 0}
 .result.win{display:block;background:var(--green-bg);border:1px solid var(--green-border)}
 .result.lose{display:block;background:var(--red-bg);border:1px solid var(--red-border)}
-.result-title{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:3px}
+.result-title{font-family:'Bebas Neue',sans-serif;font-size:26px;letter-spacing:3px}
 .result.win .result-title{color:var(--green-text)}
 .result.lose .result-title{color:var(--orange)}
-.result-answer{font-size:11px;color:var(--text-muted);margin-top:6px;line-height:1.6}
+.result-answer{font-size:14px;color:var(--text-dim);margin-top:8px;line-height:1.7}
 .result-answer b{color:var(--text)}
-.result-countdown{font-size:10px;color:var(--text-muted);margin-top:8px;letter-spacing:1px}
-.result-countdown b{color:var(--orange);font-size:14px;font-family:'Bebas Neue',sans-serif;letter-spacing:2px}
+.result-countdown{font-size:12px;color:var(--text-muted);margin-top:10px;letter-spacing:1px}
+.result-countdown b{color:var(--orange);font-size:18px;font-family:'Bebas Neue',sans-serif;letter-spacing:2px}
 
-.btn-row{display:flex;gap:8px;justify-content:center;margin-top:12px;flex-wrap:wrap}
-.share-btn{background:var(--orange);border:none;border-radius:3px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:2px;padding:9px 22px;cursor:pointer;transition:background .15s}
+.btn-row{display:flex;gap:10px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+.share-btn{background:var(--orange);border:none;border-radius:4px;color:#fff;font-family:'Bebas Neue',sans-serif;font-size:17px;letter-spacing:2px;padding:10px 26px;cursor:pointer;transition:background .15s}
 .share-btn:hover{background:#f06a10}
 .share-btn.copied{background:var(--green-border);color:var(--green-text)}
 
 /* ---- MID AD ---- */
-.ad-mid{background:var(--bg2);border:1px dashed var(--border);border-radius:3px;padding:20px;text-align:center;min-height:100px;display:flex;align-items:center;justify-content:center;margin:14px 0}
+.ad-mid{background:var(--bg2);border:1px dashed var(--border);border-radius:4px;padding:24px;text-align:center;min-height:100px;display:flex;align-items:center;justify-content:center;margin:16px 0}
 
 /* ---- FOOTER ---- */
-footer{margin-top:30px;padding:20px 16px;border-top:1px solid var(--border);text-align:center;font-size:10px;color:#333;letter-spacing:1px;line-height:2}
-footer a{color:#555;text-decoration:none}
+footer{margin-top:40px;padding:24px 20px;border-top:1px solid var(--border);text-align:center;font-size:12px;color:#444;letter-spacing:.5px;line-height:2.2}
+footer a{color:#666;text-decoration:none}
 footer a:hover{color:var(--orange)}
 
 /* ---- MODAL ---- */
-.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:200;align-items:center;justify-content:center;padding:20px}
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:200;align-items:center;justify-content:center;padding:20px}
 .modal-bg.open{display:flex}
-.modal{background:#141414;border:1px solid var(--border2);border-top:3px solid var(--orange);border-radius:4px;padding:24px;max-width:420px;width:100%;max-height:90vh;overflow-y:auto}
-.modal h2{font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:3px;color:var(--orange);margin-bottom:14px}
-.modal p{font-size:11px;color:#9a9278;line-height:1.8;margin-bottom:10px}
-.modal-close{background:transparent;border:1px solid var(--border2);border-radius:3px;color:var(--text-muted);font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;padding:7px 18px;cursor:pointer;margin-top:10px}
+.modal{background:#161616;border:1px solid var(--border2);border-top:3px solid var(--orange);border-radius:5px;padding:28px;max-width:440px;width:100%;max-height:90vh;overflow-y:auto}
+.modal h2{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:3px;color:var(--orange);margin-bottom:16px}
+.modal p{font-size:13px;color:#9a9278;line-height:1.85;margin-bottom:12px}
+.modal-close{background:transparent;border:1px solid var(--border2);border-radius:3px;color:var(--text-muted);font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:2px;padding:8px 20px;cursor:pointer;margin-top:12px}
 .modal-close:hover{border-color:var(--orange);color:var(--orange)}
-.how-item{display:flex;gap:10px;margin-bottom:10px;align-items:flex-start}
-.how-num{font-family:'Bebas Neue',sans-serif;font-size:18px;color:var(--orange);flex-shrink:0;line-height:1.2}
+.how-item{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start}
+.how-num{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--orange);flex-shrink:0;line-height:1.2}
 
-.hdr-links{display:flex;gap:8px;margin-top:6px;justify-content:flex-end}
-.hdr-link{font-size:9px;color:var(--text-muted);letter-spacing:1px;text-transform:uppercase;cursor:pointer;padding:2px 0;border-bottom:1px solid transparent;transition:color .15s,border-color .15s}
+.hdr-links{display:flex;gap:12px;margin-top:6px;justify-content:flex-end}
+.hdr-link{font-size:11px;color:var(--text-muted);letter-spacing:.5px;text-transform:uppercase;cursor:pointer;padding:2px 0;border-bottom:1px solid transparent;transition:color .15s,border-color .15s}
 .hdr-link:hover{color:var(--orange);border-color:var(--orange-dim)}
 
 /* ---- TOAST ---- */
-.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--bg2);border:1px solid var(--green-border);color:var(--green-text);font-size:11px;letter-spacing:1px;padding:10px 20px;border-radius:3px;opacity:0;transition:all .3s;z-index:300;pointer-events:none;white-space:nowrap}
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--bg2);border:1px solid var(--green-border);color:var(--green-text);font-size:13px;padding:12px 24px;border-radius:4px;opacity:0;transition:all .3s;z-index:300;pointer-events:none;white-space:nowrap}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
-@media(max-width:500px){
-  .tile{font-size:6.5px;padding:6px 1px}
-  .logo{font-size:22px}
-  button.go{padding:10px 14px;font-size:15px}
+@media(max-width:520px){
+  .tile{font-size:9px;padding:7px 2px}
+  .logo{font-size:26px}
+  button.go{padding:11px 16px;font-size:17px}
+  .game-wrap{padding:0 10px}
+  header{padding:12px 14px}
 }
 </style>
 </head>
@@ -243,7 +274,7 @@ footer a:hover{color:var(--orange)}
     <div>Mechle — A daily car diagnostic puzzle for mechanics &amp; enthusiasts</div>
     <div style="margin-top:6px">
       <a href="#" onclick="openModal('about');return false">About</a> &nbsp;·&nbsp;
-      <a href="mailto:hello@mechle.com">Contact</a> &nbsp;·&nbsp;
+      <a href="/cdn-cgi/l/email-protection#1f777a7373705f727a7c77737a317c7072">Contact</a> &nbsp;·&nbsp;
       <a href="#" onclick="openModal('privacy');return false">Privacy</a>
     </div>
     <div style="margin-top:10px;color:#222">New puzzle every day at midnight UTC</div>
@@ -305,7 +336,7 @@ footer a:hover{color:var(--orange)}
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ================================================================
 // PUZZLE DATA — add more objects to this array to extend the game.
 // Puzzles are selected by day index (today's date % puzzles.length)
@@ -1280,8 +1311,8 @@ function renderStatsModal(){
 }
 function statCard(val,label){
   return `<div style="background:#1a1a1a;border:1px solid #222;border-radius:3px;padding:10px;text-align:center">
-    <div style="font-family:'Bebas Neue',sans-serif;font-size:26px;color:var(--orange)">${val}</div>
-    <div style="font-size:8px;color:#555;letter-spacing:1px;text-transform:uppercase;margin-top:2px">${label}</div>
+    <div style="font-family:'Bebas Neue',sans-serif;font-size:30px;color:var(--orange)">${val}</div>
+    <div style="font-size:11px;color:#666;letter-spacing:.5px;text-transform:uppercase;margin-top:2px">${label}</div>
   </div>`;
 }
 
@@ -1303,12 +1334,4 @@ function showToast(msg){
 }
 
 // Show how-to-play on very first visit
-if(!localStorage.getItem('mechle_visited')){
-  localStorage.setItem('mechle_visited','1');
-  setTimeout(()=>openModal('how'),600);
-}
-
-init();
-</script>
-</body>
-</html>
+if(!localStorage.getI
